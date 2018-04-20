@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+a, p, h1, h2{
+    font-family: 'dancing script', cursive;
+}
+
+
+header{
+   
+    width: 100%;
+    height: 180px;
+    background-color: #5b7989;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+    color: white;
+    padding-top: 10%
+}
+
+header h1{
+    
+    
+}
+#menu a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+    
+}
+#menu a:hover{
+   background-color: #d5c75f;
+    color: black;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#menu{
+    
+    margin-left: -3%;
+    margin-top: 10%;
+    
+}
+
+
+#galeria{
+    text-align: center;
+    padding: 20px;
+    display: block;
+    background-color: #d5c75f;
+}
+
+
+#galeria img{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    
+}
+#desert{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+#forest, #lagoon, #sun{
+    filter: grayscale(100%);
+    -webkit-filter: greyscale(100%);
+}
+
+#fun{
+    filter: sepia(90%);
+     -webkit-filter: sepia(90%);
+}
+
+
+
+
+ footer{
+   
+    clear: both;
+    text-align: center;
+    width: 100%;
+   
+    background-color:  #C6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer div{
+   
+    width: 18%;
+    min-width: 230px;
+    margin-left: 1%;
+    padding: 5px;
+   
+    text-align: left
+}
+footer ul{
+    list-style-type: none;
+}
+#pie {
+    width: 90%;
+     display: flex;
+    flex-flow: wrap;
+    margin-left: 3.5%;
+}
+
+
+  footer{
+        text-align: center;
+    }
+    
+   
+/*-------------------------------------640px--------------*/
+
+
+@media (min-width:640px){
+    body{
+        width: 70%;
+        margin: auto;
+    }
+    header{
+        width: 100%;
+        padding: 5%;
+        margin: auto;
+    }
+    header h1{
+        float: left;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
+    #menu {
+        float: right;
+        margin-top: 10px;
+        
+    }
+    #menu a {
+        font-size: 25px;
+
+        
+            
+    }
+    
+    #galeria {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 7%;
+        text-align: center;
+        
+        
+    }
+    
+    #galeria img{
+        width: 28%;
+        height: 28%;
+        margin: 10px;
+    }
+
+
+    #desert{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+    #forest, #lagoon, #sun{
+    filter: grayscale(100%);
+    -webkit-filter: greyscale(100%);
+}
+
+    #fun{
+    filter: sepia(90%);
+     -webkit-filter: sepia(90%);
+}
+
+    
+}
+
+
+ /*       
+}
+
+#principal{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    background-color: #82c3a6;
+    z-index: 1;
+}
+
+#principal img{
+    width: 100%;
+   
+    border: 1px solid black
+    
+    
+    
+}
+#secundario{
+    text-align: center;
+    background-color: #d5c75f;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#secundario img{
+   
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#s1{
+    transition-property: rotate(1s);
+    transition-duration: 1s;
+}
+#s1:hover{
+    
+    transform: rotate(5deg);
+      box-shadow: 4px 4px #82c3a6;
+    
+}
+#s2{
+    transition-property: translate(0.5s);
+    transition-duration: 0.5s;
+    
+    
+}
+
+#s2:hover{
+     transform: translateX(20px)
+         translateY(-5px);
+      box-shadow: 4px 4px #82c3a6;
+    
+}
+
+
+
+
+
+
+
+
+
+/*------------------------640px-------------
+@media (min-width:640px){
+header{
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+header h1{
+    float: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+
+    #menu{
+        float: right;
+        margin-top: 60px;
+    }
+    #menu a{
+        font-size: 25px;
+    }
+
+    #principal img{
+            
+    }
+    
+    #secundario  {
+        display: flex;
+        flex-wrap: nowrap;
+        
+       
+        
+    }
+    #secundario a{
+        padding: 10px;
+    }
+    #secundario img{
+       
+  
+    }
+
+}
+
+
+
+
+
+  
+
+
+
+
